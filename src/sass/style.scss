@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+
+.pokemonWrapper{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    border: red solid 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .pokemonHeading {
+        color: yellow;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-weight: 900;
+        font-size: 20px;
+    }
+}
+
+.allPokemons {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
